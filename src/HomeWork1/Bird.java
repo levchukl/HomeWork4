@@ -26,11 +26,11 @@ public abstract class Bird {
         this.layEggs = layEggs;
     }
 
-    public abstract boolean fly();
+    public abstract void fly();
 
     @Override
     public String toString() {
-        return "Bird has feathers and lay eggs";
+        return "Info about bird";
     }
 
 }

@@ -7,12 +7,12 @@ public class FlyingBird extends Bird{
         super(feathers, layEggs);
     }
     @Override
-    public boolean fly(){
-        System.out.print("Can fly");
-        return true;
+    public void fly(){
+        System.out.println("Can fly ");
+
     }
     @Override
     public String toString(){
-        return "Flying bird has feathers and lay eggs";
+        return "These birds can fly";
     }
 }

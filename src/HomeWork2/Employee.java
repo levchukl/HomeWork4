@@ -25,17 +25,6 @@ public class Employee {
     }
 
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
     public String report(){
         return String.format("Name: %s, Age: %d, Salary: \u20B4 %.2f.", name, age, salary);
     }

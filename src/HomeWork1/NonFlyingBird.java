@@ -5,13 +5,13 @@ public class NonFlyingBird extends Bird{
         super(feathers, layEggs);
     }
     @Override
-    public boolean fly(){
-        System.out.print("Can`t fly");
-        return false;
+    public void fly(){
+        System.out.println("Can`t fly ");
+
     }
     @Override
     public String toString(){
-        return "Non flying bird has feathers and lay eggs";
+        return "These birds can`t fly";
     }
 
 }
